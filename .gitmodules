@@ -1,0 +1,6 @@
+[submodule "AREM-Taller_1_BPMN"]
+	path = AREM-Taller_1_BPMN
+	url = https://github.com/pipe1408/AREM-Taller_1_BPMN
+[submodule "AREM-Taller_2_Modelo_Informacion"]
+	path = AREM-Taller_2_Modelo_Informacion
+	url = https://github.com/pipe1408/AREM-Taller_2_Modelo_Informacion
