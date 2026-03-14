@@ -86,9 +86,9 @@ Una de las prácticas más importantes es el uso de protocolos seguros como HTTP
 En el contexto del sistema BO-TECH Tracking, estas medidas son especialmente relevantes debido a que la plataforma maneja información relacionada con la ubicación de estudiantes. Por esta razón, el uso de mecanismos de cifrado, autenticación segura y monitoreo de eventos es fundamental para garantizar la protección de los datos y la confiabilidad del sistema.
 
 ## 📚 Referencias
-[1] Shostack, A. Threat Modeling: Designing for Security. Wiley, 2014.
-[2] OWASP Foundation. OWASP Top Ten Web Application Security Risks. https://owasp.org/www-project-top-ten/
-[3] Microsoft. The STRIDE Threat Model. https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats
+- [1] Shostack, A. Threat Modeling: Designing for Security. Wiley, 2014.
+- [2] OWASP Foundation. OWASP Top Ten Web Application Security Risks. https://owasp.org/www-project-top-ten/
+- [3] Microsoft. The STRIDE Threat Model. https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats
 
 ---
 
