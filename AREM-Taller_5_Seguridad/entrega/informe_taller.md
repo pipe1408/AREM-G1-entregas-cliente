@@ -39,7 +39,9 @@ Base de datos: almacena información relacionada con estudiantes, rutas y regist
 
 Aplicación del acudiente: interfaz que permite visualizar la ubicación del transporte escolar en tiempo real.
 
-2. El modelo representa adecuadamente las necesidades del cliente, ya que se enfoca en el proceso central de la plataforma: el seguimiento en tiempo real de las rutas escolares. Este proceso requiere un flujo constante de información entre los dispositivos de los conductores y el sistema central, lo que implica riesgos de seguridad relacionados con la transmisión de datos, el acceso a la información y la disponibilidad del servicio.
+2. Representación de las necesidades del cliente
+
+El modelo representa adecuadamente las necesidades del cliente, ya que se enfoca en el proceso central de la plataforma: el seguimiento en tiempo real de las rutas escolares. Este proceso requiere un flujo constante de información entre los dispositivos de los conductores y el sistema central, lo que implica riesgos de seguridad relacionados con la transmisión de datos, el acceso a la información y la disponibilidad del servicio.
 
 El análisis de amenazas mediante STRIDE permite identificar posibles escenarios en los que un atacante podría intentar suplantar usuarios, manipular información de ubicación o acceder a datos sensibles. La identificación de estas amenazas permite proponer controles de seguridad que fortalezcan la arquitectura del sistema y protejan la información de los usuarios.
 
