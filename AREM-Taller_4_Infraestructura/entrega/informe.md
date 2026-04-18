@@ -60,7 +60,7 @@ El sistema utiliza servicios de notificaciones externas para enviar alertas a lo
 Estos supuestos permiten construir un modelo coherente que represente una arquitectura plausible para una plataforma de rastreo en tiempo real.
 
 ## 📈 Diagrama final entregado
-> (Inserte aquí una imagen o enlace al modelo-final.drawio / .asta / PDF)
+> ![](diagrama-bo-tech.drawio.png)
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
