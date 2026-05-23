@@ -4,9 +4,9 @@
 Taller 7 – Integración de Vistas de Arquitectura
 
 ## 👥 Integrantes del equipo
-Tomas Ariza
-Nombre integrante 2
-Nombre integrante 3
+- Tomas Ariza
+- Andres Beltran
+- Felipe Ballesteros
 ## 🧠 Descripción general del trabajo
 
 El objetivo del taller fue integrar todas las vistas arquitectónicas desarrolladas durante el curso en una única visión coherente del sistema de BO-TECH Tracking. Para ello, se relacionaron las vistas de negocio, información, aplicaciones, infraestructura y seguridad, permitiendo entender cómo cada componente soporta las necesidades operativas del cliente.
