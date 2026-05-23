@@ -1,5 +1,5 @@
-🚍 BO-TECH Tracking – Arquitectura Empresarial
-📘 Descripción General
+# 🚍 BO-TECH Tracking – Arquitectura Empresarial
+## 📘 Descripción General
 
 Este repositorio contiene el desarrollo de los talleres realizados durante el curso de Arquitectura Empresarial (AREM) de la Universidad de La Sabana, tomando como cliente real a BO-TECH Tracking, una plataforma enfocada en el monitoreo, control y trazabilidad de rutas de movilidad y transporte.
 
@@ -7,7 +7,7 @@ El proyecto se centra en analizar y modelar la arquitectura empresarial y tecnol
 
 A lo largo del curso se desarrollaron distintos artefactos arquitectónicos con el objetivo de construir una visión integral del sistema y proponer mejoras alineadas con las necesidades operativas del cliente.
 
-🏢 Sobre BO-TECH Tracking
+## 🏢 Sobre BO-TECH Tracking
 
 BO-TECH Tracking es una solución tecnológica orientada al monitoreo de rutas operativas y transporte especial, permitiendo supervisar recorridos, validar cumplimiento de rutas y realizar seguimiento en tiempo real mediante herramientas digitales.
 
@@ -22,7 +22,7 @@ Control de recorridos escolares y municipales
 
 El sistema está diseñado para integrarse con procesos de movilidad y transporte, permitiendo a operadores y entidades territoriales tener mayor visibilidad y control sobre sus operaciones.
 
-🎯 Objetivos del Proyecto
+## 🎯 Objetivos del Proyecto
 Objetivo General
 
 Diseñar y documentar una propuesta de arquitectura empresarial para BO-TECH Tracking, integrando vistas de negocio, información, aplicaciones, infraestructura y seguridad que permitan entender y fortalecer el funcionamiento del sistema.
@@ -49,7 +49,7 @@ Necesidad de escalabilidad para múltiples municipios y operadores.
 
 Además, en contextos escolares, se identificó la importancia de fortalecer la protección de datos de menores de edad y garantizar controles adecuados sobre información de geolocalización.
 
-💡 Solución Propuesta
+## 💡 Solución Propuesta
 
 La solución propuesta consiste en una arquitectura integrada que combina:
 
@@ -63,7 +63,7 @@ Monitoreo y trazabilidad de recorridos
 
 La arquitectura busca mejorar la capacidad operativa de BO-TECH Tracking y facilitar futuras integraciones con sistemas externos relacionados con movilidad y transporte.
 
-🏗️ Vistas Arquitectónicas Desarrolladas
+## 🏗️ Vistas Arquitectónicas Desarrolladas
 
 Durante el curso se trabajaron las siguientes vistas:
 
@@ -74,7 +74,8 @@ Infraestructura	Componentes tecnológicos y despliegue
 Seguridad (STRIDE)	Identificación de amenazas y mitigaciones
 Normatividad	Cumplimiento legal y protección de datos
 Integración de vistas	Relación entre todas las capas arquitectónicas
-🔒 Seguridad y Cumplimiento
+
+## 🔒 Seguridad y Cumplimiento
 
 El proyecto incluyó análisis relacionados con:
 
@@ -85,7 +86,8 @@ Auditoría y trazabilidad
 Protección de datos de menores
 Cumplimiento de la Ley 1581 de 2012
 Buenas prácticas ISO 27001
-📁 Estructura del Repositorio
+
+## 📁 Estructura del Repositorio
 proyecto-arquitectura-empresarial/
 ├── taller-01-bpmn/
 ├── taller-04-infraestructura/
@@ -94,7 +96,8 @@ proyecto-arquitectura-empresarial/
 ├── taller-07-integracion-vistas/
 ├── taller-08-presentacion-final/
 └── README.md
-🛠️ Herramientas Utilizadas
+
+## 🛠️ Herramientas Utilizadas
 draw.io
 Markdown
 Excel
@@ -102,14 +105,16 @@ BPMN
 ERD
 STRIDE
 GitHub
-📚 Referencias
+
+## 📚 Referencias
 TOGAF Standard – The Open Group
 ISO/IEC 27001 – Information Security Management
 OWASP Foundation – Application Security Verification Standard
 Ley 1581 de 2012 – Protección de Datos Personales (Colombia)
 C4 Model – Simon Brown
 OMG BPMN Specification – https://www.omg.org/spec/BPMN/
-👨‍🎓 Universidad
+
+# 👨‍🎓 Universidad
 
 Proyecto desarrollado para el curso de Arquitectura Empresarial (AREM)
 Universidad de La Sabana – 2026.
