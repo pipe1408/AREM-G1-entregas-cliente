@@ -1,31 +1,73 @@
 # 🙋‍♂️ Reflexión Individual
 
 ## 👤 Nombre del Estudiante
-_Escriba su nombre completo aquí._
+Tomas Ariza Rodriguez
 
 ## 💼 Rol en el equipo
-_Describa el rol principal que desempeñó en el desarrollo del proyecto arquitectónico._
-(Ej: modelador BPMN, responsable del análisis STRIDE, encargado del modelado de datos, presentador del equipo, etc.)
+Durante el desarrollo del proyecto arquitectónico participé principalmente en el modelado y documentación de las diferentes vistas de arquitectura del sistema BO-TECH Tracking. Mi rol estuvo enfocado en:
+
+- Modelado BPMN de procesos operativos
+- Construcción y organización de diagramas ERD
+- Integración de vistas arquitectónicas
+- Documentación técnica en Markdown
+- Análisis de seguridad y normatividad
+- Consolidación de entregables finales
+
+También participé en la estructuración de la narrativa técnica y la presentación general de la solución arquitectónica.
 
 ## 🎓 Aprendizajes Clave
 
-- 📌 Aprendí a [ejemplo: estructurar procesos usando BPMN con base en un proceso real del cliente].
-- 💡 Comprendí mejor [ejemplo: cómo una arquitectura bien diseñada facilita la toma de decisiones técnicas].
-- ⚙️ Practiqué habilidades como [ejemplo: trabajo en equipo, modelado visual, documentación técnica].
+📌 Aprendí a estructurar procesos de negocio utilizando BPMN a partir de necesidades reales relacionadas con monitoreo de rutas y control operativo.
 
+💡 Comprendí mejor cómo las diferentes capas de una arquitectura empresarial (negocio, datos, aplicaciones, infraestructura y seguridad) se relacionan entre sí y soportan los objetivos estratégicos de un sistema.
+
+⚙️ Practiqué habilidades relacionadas con:
+
+* Modelado visual de arquitectura
+* Documentación técnica
+* Análisis de riesgos
+* Organización de entregables
+* Trabajo colaborativo
+* Pensamiento estructurado
+
+Además, aprendí la importancia de integrar aspectos de seguridad y cumplimiento normativo desde etapas tempranas del diseño arquitectónico.
 ## 🔄 Retos Superados
 
-- Tuve dificultades con [ejemplo: representar correctamente los flujos del sistema en C4], pero logré superarlo mediante [ejemplo: consultas al docente, revisión de ejemplos reales, uso de draw.io].
-- Aprendí que es importante [ejemplo: validar los supuestos del cliente antes de modelar].
+Tuve dificultades inicialmente para integrar todas las vistas arquitectónicas de forma coherente, especialmente relacionando procesos de negocio con infraestructura y controles de seguridad. Sin embargo, logré superarlo mediante:
+
+- Revisión de ejemplos reales
+- Uso de herramientas como draw.io
+- Investigación complementaria sobre TOGAF y C4 Model
+- Retroalimentación recibida durante el curso
+
+También fue un reto modelar correctamente escenarios relacionados con protección de datos y geolocalización de menores, ya que requerían considerar aspectos técnicos y legales al mismo tiempo.
+
+Aprendí que es fundamental validar supuestos y entender correctamente el contexto del cliente antes de diseñar cualquier solución arquitectónica.
 
 ## 🌱 Áreas por Mejorar
 
-- Me gustaría reforzar mi conocimiento en [ejemplo: modelado de infraestructura o evaluación de riesgos].
-- Reconozco que debo mejorar [ejemplo: mi gestión del tiempo para cumplir con entregas parciales].
+Me gustaría fortalecer mis conocimientos en:
+
+- Arquitectura cloud y despliegues escalables
+- Modelado avanzado de infraestructura
+- Seguridad ofensiva y evaluación técnica de vulnerabilidades
+- Arquitectura basada en microservicios
+
+Reconozco también que debo mejorar mi gestión del tiempo y planificación de tareas para optimizar el desarrollo de entregables complejos.
 
 ## 🧠 Contribución Personal
 
-Siento que mi mayor aporte al equipo fue [ejemplo: organizar las vistas, integrar los diagramas, validar la coherencia entre los entregables].
+Siento que mi mayor aporte al equipo fue la integración y organización de las distintas vistas arquitectónicas desarrolladas durante el proyecto.
+
+Contribuí especialmente en:
+
+- Consolidar la documentación técnica
+- Mantener coherencia entre diagramas y entregables
+- Relacionar aspectos de negocio con componentes tecnológicos
+- Fortalecer el análisis de seguridad y normatividad
+- Estructurar el contenido final para presentación ejecutiva
+
+Considero que el proyecto permitió desarrollar una visión mucho más completa sobre cómo se construye y documenta una arquitectura empresarial en un contexto real.
 
 ---
 
