@@ -73,17 +73,27 @@ Estos supuestos permiten realizar una evaluación realista del cumplimiento norm
 | Datos sensibles  | Protección de datos de ubicación                         | Parcial  | Datos GPS manejados sin evidencia de protección avanzada                      | Riesgo de seguridad física                               | Cifrado + control de acceso estricto                       |
 | Datos sensibles  | Minimización de datos                                    | No       | Se podrían almacenar más datos de los necesarios                              | Riesgo legal y de privacidad                             | Aplicar principio de minimización                          |
 
+# 👶 Protección de menores de edad
+
+| Categoría       | Control / Requisito                              | ¿Cumple? | Justificación                                                      | Riesgo / Brecha                        | Recomendación                                |
+| --------------- | ------------------------------------------------ | -------- | ------------------------------------------------------------------ | -------------------------------------- | -------------------------------------------- |
+| Menores de edad | Consentimiento explícito de acudientes           | Parcial  | No se evidencia autorización formal verificable                    | Riesgo legal y protección infantil     | Implementar autorización digital verificable |
+| Menores de edad | Restricción de acceso a ubicación de estudiantes | Parcial  | El sistema maneja tracking pero no evidencia segmentación avanzada | Exposición de ubicación de menores     | Aplicar control RBAC y permisos estrictos    |
+| Menores de edad | Protección de históricos de recorrido            | No       | No se evidencia política clara de retención                        | Riesgo de fuga de información sensible | Limitar almacenamiento histórico             |
+| Menores de edad | Trazabilidad de accesos a información infantil   | No       | No se evidencia auditoría completa                                 | Uso indebido de información            | Implementar logs y monitoreo de accesos      |
+| Menores de edad | Minimización de datos sensibles                  | Parcial  | Se podrían almacenar más datos de los necesarios                   | Riesgo de privacidad                   | Aplicar principio de minimización            |
+
 
 ## 🔍 Investigación complementaria
 ### Tema investigado:
 Cumplimiento de protección de datos personales en Colombia (Ley 1581 de 2012) y buenas prácticas de seguridad (ISO/IEC 27001).
 
 ### Resumen:
-La Ley 1581 de 2012 establece el marco legal para la protección de datos personales en Colombia, obligando a las organizaciones a garantizar el uso adecuado de la información, obtener el consentimiento de los titulares y permitir el ejercicio de derechos como acceso, corrección y eliminación de datos. Esta ley es especialmente relevante para sistemas que manejan información sensible, como plataformas de monitoreo de ubicación.
+BO-TECH Tracking maneja información sensible relacionada con rutas escolares y monitoreo de ubicación en tiempo real de estudiantes, lo que implica responsabilidades adicionales frente al tratamiento de datos personales de menores de edad. En Colombia, la Ley 1581 de 2012 y las directrices de la Superintendencia de Industria y Comercio (SIC) establecen que el tratamiento de datos de niños, niñas y adolescentes requiere protección reforzada y autorización explícita de los representantes legales.
 
-Por otro lado, el estándar ISO/IEC 27001 define un conjunto de buenas prácticas para la gestión de la seguridad de la información, incluyendo controles relacionados con acceso, cifrado, auditoría y gestión de riesgos. La implementación de estos controles permite reducir vulnerabilidades y mejorar la protección de los datos.
+Dentro del sistema, datos como ubicación GPS, horarios de recorrido, identificación de estudiantes y rutas asignadas pueden representar riesgos importantes si no existen controles adecuados de acceso y seguridad. Por esta razón, se recomienda implementar mecanismos de autenticación robusta, cifrado de información sensible y segmentación de permisos para garantizar que únicamente acudientes autorizados y administradores validados puedan consultar información relacionada con menores.
 
-En el caso de BO-TECH Tracking, la aplicación de estas normativas es fundamental debido a la naturaleza sensible de los datos que maneja, especialmente la ubicación en tiempo real de estudiantes. La adopción de estas prácticas contribuye a fortalecer la seguridad del sistema y a garantizar el cumplimiento legal.
+Adicionalmente, las buenas prácticas de seguridad indican que los sistemas que manejan geolocalización infantil deben aplicar principios de minimización de datos, retención limitada de históricos y monitoreo de accesos sospechosos. Estas medidas permiten reducir riesgos relacionados con fuga de información, rastreo indebido o uso no autorizado de datos sensibles.
 
 ## 📚 Referencias
 - [1] Congreso de Colombia. Ley 1581 de 2012 – Protección de Datos Personales.
