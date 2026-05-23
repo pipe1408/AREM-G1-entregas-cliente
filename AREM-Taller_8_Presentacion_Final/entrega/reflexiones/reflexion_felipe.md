@@ -1,31 +1,29 @@
 # 🙋‍♂️ Reflexión Individual
 
 ## 👤 Nombre del Estudiante
-_Escriba su nombre completo aquí._
+_Luis Felipe Ballesteros Gutiérrez._
 
 ## 💼 Rol en el equipo
-_Describa el rol principal que desempeñó en el desarrollo del proyecto arquitectónico._
-(Ej: modelador BPMN, responsable del análisis STRIDE, encargado del modelado de datos, presentador del equipo, etc.)
+_Responsable de la comprensión de talleres y organización de entregas_
 
 ## 🎓 Aprendizajes Clave
 
-- 📌 Aprendí a [ejemplo: estructurar procesos usando BPMN con base en un proceso real del cliente].
-- 💡 Comprendí mejor [ejemplo: cómo una arquitectura bien diseñada facilita la toma de decisiones técnicas].
-- ⚙️ Practiqué habilidades como [ejemplo: trabajo en equipo, modelado visual, documentación técnica].
+- 📌 Aprendí a modelar procesos de negocio y dominios organizacionales para comprender el negocio antes de diseñar una solución.
+- 💡 Comprendí mejor el framework TOGAF para la arquitectura de aplicaciones de negocio, especialmente cómo algunos de sus componentes se pueden utilizar como base incluso para negocios pequeños que aún están iniciando.
+- ⚙️ Practiqué habilidades como trabajo en equipo, diagramación y comunicación con cliente y equipo.
 
 ## 🔄 Retos Superados
 
-- Tuve dificultades con [ejemplo: representar correctamente los flujos del sistema en C4], pero logré superarlo mediante [ejemplo: consultas al docente, revisión de ejemplos reales, uso de draw.io].
-- Aprendí que es importante [ejemplo: validar los supuestos del cliente antes de modelar].
+- Tuve dificultades intentando plasmar una idea sin que resultara una explicación demasiado técnica.
+- Aprendí que es importante comprender el contexto del negocio para querer idear una solución y especialmente buscar implicaciones que puedan detectarse mediante un análisis profundo.
 
 ## 🌱 Áreas por Mejorar
 
-- Me gustaría reforzar mi conocimiento en [ejemplo: modelado de infraestructura o evaluación de riesgos].
-- Reconozco que debo mejorar [ejemplo: mi gestión del tiempo para cumplir con entregas parciales].
+- Profundización de los casos de estudio y justificación de ideas con un enfoque de negocio más que meramente técnico.
 
 ## 🧠 Contribución Personal
 
-Siento que mi mayor aporte al equipo fue [ejemplo: organizar las vistas, integrar los diagramas, validar la coherencia entre los entregables].
+Siento que mi mayor aporte al equipo fue comprender el objetivo de los talleres realizando las primeras partes y llevando esa  comprensión a los entregables de cliente.
 
 ---
 
