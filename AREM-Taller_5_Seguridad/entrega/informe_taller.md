@@ -60,7 +60,16 @@ Los usuarios acceden al sistema mediante aplicaciones móviles o interfaces web.
 Estos supuestos permiten construir un escenario de análisis coherente que refleja la arquitectura típica de una plataforma de monitoreo en tiempo real.
 
 ## 📈 Diagrama final entregado
-<https://unisabanaedu-my.sharepoint.com/:x:/r/personal/tomasarro_unisabana_edu_co/Documents/STRIDE%20BO-TECH.xlsx?d=wfda1931d57f64e5a86d753172870ed2f&csf=1&web=1&e=RvO6XP>
+# Análisis de Amenazas STRIDE
+
+| ID | Componente / Activo | Tipo STRIDE | Descripción de la Amenaza | Escenario de Ataque | Impacto | Probabilidad | Nivel de Riesgo | Controles de Seguridad Existentes | Mitigación Recomendada | Responsable | Estado |
+|----|---------------------|-------------|---------------------------|---------------------|---------|--------------|-----------------|-----------------------------------|------------------------|-------------|--------|
+| B1 | API Tracking | Datos de ubicación GPS | Spoofing | Suplantación de identidad de un conductor o dispositivo GPS | Un atacante roba credenciales de acceso y envía ubicaciones falsas al sistema | Información incorrecta de rutas y pérdida de confianza en el sistema | Media | Alto | Autenticación básica con usuario y contraseña | Implementar autenticación con tokens seguros (JWT) y validación por dispositivo | Backend | Pendiente |
+| B2 | API Tracking | Datos de rastreo | Tampering | Manipulación de datos durante la transmisión | Un atacante intercepta el tráfico y modifica las coordenadas GPS enviadas al sistema | Alteración del historial de rutas y errores en monitoreo | Media | Alto | Comunicación HTTPS básica | Implementar cifrado TLS completo y verificación de integridad de mensajes | Backend | Pendiente |
+| B3 | Sistema de Logs | Registros de actividad | Repudiation | Negación de acciones realizadas por usuarios | Un conductor niega haber enviado ciertos datos de ubicación o actividad | Dificultad para auditorías o investigaciones | Baja | Medio | Logs básicos del sistema | Implementar auditoría completa y firmas digitales en registros | DevOps | Pendiente |
+| B4 | Base de Datos | Información de estudiantes y rutas | Information Disclosure | Acceso no autorizado a información sensible | Un atacante accede a la base de datos y obtiene información de estudiantes y ubicación | Exposición de datos personales y posibles riesgos de seguridad | Media | Alto | Control de acceso básico | Cifrado de datos en base de datos y control de acceso basado en roles (RBAC) | Seguridad | Pendiente |
+| B5 | Servidor Backend | Servicios de rastreo | Denial of Service | Saturación del sistema mediante múltiples solicitudes | Un bot envía miles de solicitudes a la API de tracking | Caída del sistema y pérdida de monitoreo en tiempo real | Media | Alto | Firewall básico | Implementar rate limiting, balanceadores de carga y protección DDoS | Infraestructura | Pendiente |
+| B6 | Panel Administrativo | Gestión del sistema | Elevation of Privilege | Escalamiento de privilegios de usuario | Un atacante explota una vulnerabilidad para obtener permisos de administrador | Acceso total al sistema y modificación de datos críticos | Baja | Alto | Roles de usuario básicos | Implementar RBAC estricto y auditoría de permisos | Arquitectura | Pendiente |
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
