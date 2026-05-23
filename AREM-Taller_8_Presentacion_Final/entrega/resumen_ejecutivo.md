@@ -32,11 +32,11 @@ La propuesta arquitectónica tuvo como propósito aportar valor mediante:
 
 ## 🧩 Hallazgos Clave
 
-- ❗ Se identificó que el sistema maneja información sensible relacionada con ubicación y recorridos de usuarios, incluyendo datos asociados a rutas escolares y menores de edad, sin evidencia completa de controles avanzados de protección y auditoría.
+❗ Se identificó que el sistema maneja información sensible relacionada con ubicación y recorridos de usuarios, incluyendo datos asociados a rutas escolares y menores de edad, sin evidencia completa de controles avanzados de protección y auditoría.
 
-- 🔄 La arquitectura actual presenta posibles riesgos relacionados con dependencia de componentes centralizados, lo que podría generar afectaciones en disponibilidad y escalabilidad ante crecimiento operativo.
+🔄 La arquitectura actual presenta posibles riesgos relacionados con dependencia de componentes centralizados, lo que podría generar afectaciones en disponibilidad y escalabilidad ante crecimiento operativo.
 
-- 📌 Existen oportunidades de mejora en aspectos como:
+📌 Existen oportunidades de mejora en aspectos como:
 
 * Gestión de autenticación y autorización
 * Cifrado de información sensible
