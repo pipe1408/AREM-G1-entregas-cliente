@@ -90,6 +90,7 @@ El proyecto incluyó análisis relacionados con:
 
 ## 📁 Estructura del Repositorio
 proyecto-arquitectura-empresarial/
+
 ├── taller-01-bpmn/
 ├── taller-04-infraestructura/
 ├── taller-05-seguridad-stride/
